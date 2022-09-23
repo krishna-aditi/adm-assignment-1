@@ -1,0 +1,120 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "ass_1_attempt_2",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "marketplace",
+          "customer_id",
+          "review_id",
+          "product_id",
+          "product_parent",
+          "product_title",
+          "product_category",
+          "star_rating",
+          "helpful_votes",
+          "total_votes",
+          "vine",
+          "verified_purchase",
+          "review_headline",
+          "review_body",
+          "review_date"
+        ]
+      },
+      "meta": {
+        "notes": {
+          "content": "Table expectation - 1: ordered columns in the table",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "product_id"
+      },
+      "meta": {
+        "notes": {
+          "content": "Column expectation - 1: product ID cannot be null",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "review_id"
+      },
+      "meta": {
+        "notes": {
+          "content": "Column expectation - 2: review ID cannot be null",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "review_date"
+      },
+      "meta": {
+        "notes": {
+          "content": "Column expectation - 3: review date cannot be null",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "star_rating",
+        "max_value": 5,
+        "min_value": 1
+      },
+      "meta": {
+        "notes": {
+          "content": "Column expectation - 4: star_rating should be between 1 to 5",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "vine",
+        "value_set": [
+          "Y",
+          "N"
+        ]
+      },
+      "meta": {
+        "notes": {
+          "content": "Column expectation - 5: vine should be either Y or N",
+          "format": "markdown"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "verified_purchase",
+        "value_set": [
+          "Y",
+          "N"
+        ]
+      },
+      "meta": {
+        "notes": {
+          "content": "Column expectation - 6: verified_purchase should be either Y or N",
+          "format": "markdown"
+        }
+      }
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.15.24"
+  }
+}

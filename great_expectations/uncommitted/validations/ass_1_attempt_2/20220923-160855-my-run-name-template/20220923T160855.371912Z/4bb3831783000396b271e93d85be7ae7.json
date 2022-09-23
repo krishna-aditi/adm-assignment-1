@@ -1,0 +1,310 @@
+{
+  "evaluation_parameters": {},
+  "meta": {
+    "active_batch_definition": {
+      "batch_identifiers": {},
+      "data_asset_name": "amazon_reviews_us_Musical_Instruments_v1_00.csv",
+      "data_connector_name": "default_inferred_data_connector_name",
+      "datasource_name": "assignment-1-attempt-2"
+    },
+    "batch_markers": {
+      "ge_load_time": "20220923T200855.376608Z",
+      "pandas_data_fingerprint": "90041451e593f97504dfa3693079a19e"
+    },
+    "batch_spec": {
+      "path": "/home/adiikrish/Documents/Algorithmic_Digital_Marketing/Great_Expectations_Tutorial/Ass-1/great_expectations/../Data/amazon_reviews_us_Musical_Instruments_v1_00.csv"
+    },
+    "checkpoint_id": null,
+    "checkpoint_name": "ass_1_checkpoint_1",
+    "expectation_suite_name": "ass_1_attempt_2",
+    "great_expectations_version": "0.15.24",
+    "run_id": {
+      "run_name": "20220923-160855-my-run-name-template",
+      "run_time": "2022-09-23T16:08:55.371912+00:00"
+    },
+    "validation_id": null,
+    "validation_time": "20220923T200908.952273Z"
+  },
+  "results": [
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_table_columns_to_match_ordered_list",
+        "kwargs": {
+          "batch_id": "4bb3831783000396b271e93d85be7ae7",
+          "column_list": [
+            "marketplace",
+            "customer_id",
+            "review_id",
+            "product_id",
+            "product_parent",
+            "product_title",
+            "product_category",
+            "star_rating",
+            "helpful_votes",
+            "total_votes",
+            "vine",
+            "verified_purchase",
+            "review_headline",
+            "review_body",
+            "review_date"
+          ]
+        },
+        "meta": {
+          "notes": {
+            "content": "Table expectation - 1: ordered columns in the table",
+            "format": "markdown"
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "observed_value": [
+          "marketplace",
+          "customer_id",
+          "review_id",
+          "product_id",
+          "product_parent",
+          "product_title",
+          "product_category",
+          "star_rating",
+          "helpful_votes",
+          "total_votes",
+          "vine",
+          "verified_purchase",
+          "review_headline",
+          "review_body",
+          "review_date"
+        ]
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "4bb3831783000396b271e93d85be7ae7",
+          "column": "product_id"
+        },
+        "meta": {
+          "notes": {
+            "content": "Column expectation - 1: product ID cannot be null",
+            "format": "markdown"
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 904062,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "4bb3831783000396b271e93d85be7ae7",
+          "column": "review_id"
+        },
+        "meta": {
+          "notes": {
+            "content": "Column expectation - 2: review ID cannot be null",
+            "format": "markdown"
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 904062,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "4bb3831783000396b271e93d85be7ae7",
+          "column": "review_date"
+        },
+        "meta": {
+          "notes": {
+            "content": "Column expectation - 3: review date cannot be null",
+            "format": "markdown"
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 904062,
+        "partial_unexpected_counts": [
+          {
+            "count": 8,
+            "value": null
+          }
+        ],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "unexpected_count": 8,
+        "unexpected_percent": 0.000884895062506775
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "4bb3831783000396b271e93d85be7ae7",
+          "column": "star_rating",
+          "max_value": 5,
+          "min_value": 1
+        },
+        "meta": {
+          "notes": {
+            "content": "Column expectation - 4: star_rating should be between 1 to 5",
+            "format": "markdown"
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 904062,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "4bb3831783000396b271e93d85be7ae7",
+          "column": "vine",
+          "value_set": [
+            "Y",
+            "N"
+          ]
+        },
+        "meta": {
+          "notes": {
+            "content": "Column expectation - 5: vine should be either Y or N",
+            "format": "markdown"
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 904062,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "4bb3831783000396b271e93d85be7ae7",
+          "column": "verified_purchase",
+          "value_set": [
+            "Y",
+            "N"
+          ]
+        },
+        "meta": {
+          "notes": {
+            "content": "Column expectation - 6: verified_purchase should be either Y or N",
+            "format": "markdown"
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 904062,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": null,
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    }
+  ],
+  "statistics": {
+    "evaluated_expectations": 7,
+    "success_percent": 85.71428571428571,
+    "successful_expectations": 6,
+    "unsuccessful_expectations": 1
+  },
+  "success": false
+}
