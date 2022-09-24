@@ -15,6 +15,7 @@ XSV is a command line program for indexing, slicing, analyzing, splitting and jo
 - Based on the profiling, discuss how clean is the dataset
 - Using XSV to design and write 5 queries and generate outputs
 
-Codelabs link: https://codelabs-preview.appspot.com/?file_id=1TVn5UFq4uGWXg3cnaEMye1MvhW7ZX0uYLI1YDyFTjug#0
-Google Docs source link: https://docs.google.com/document/d/1TVn5UFq4uGWXg3cnaEMye1MvhW7ZX0uYLI1YDyFTjug/edit#heading=h.mtq1xxsybtxa
+**Codelabs link:** https://codelabs-preview.appspot.com/?file_id=1TVn5UFq4uGWXg3cnaEMye1MvhW7ZX0uYLI1YDyFTjug#0
+
+**Google Docs source link:** https://docs.google.com/document/d/1TVn5UFq4uGWXg3cnaEMye1MvhW7ZX0uYLI1YDyFTjug/edit#heading=h.mtq1xxsybtxa
 
