@@ -1,37 +1,5 @@
 # INFO7374 Algorithmic Digital Marketing - Assignment 1
 
-## Project Structure
---------
-great_expectations
-├── great_expectations.yml
-├── expectations
-│   ├── ass_1_attempt_2.json
-├── checkpoints
-│   ├── ass_1_checkpoint_1.yml
-├── plugins
-│   ├── data_docs_custom_styles.css
-├── uncommitted
-│   ├── config_variables.yml       
-│   ├── data_docs        
-│   ├── datasource_new.ipynb 
-│   ├── edit_ass_1_attempt_2.ipynb
-│   ├── edit_checkpoint_ass_1_checkpoint_1.ipynb
-│   └── validations           
-└── .gitignore
-
---------
-
-great_expectations
-    |-- great_expectations.yml
-    |-- expectations
-    |-- checkpoints
-    |-- plugins
-    |-- .gitignore
-    |-- uncommitted
-        |-- config_variables.yml
-        |-- data_docs
-        |-- validations
-
 ## Great Expectations 
 Great Expectations is the leading tool for validating, documenting, and profiling your data to maintain quality and improve communication between teams.
 
@@ -58,3 +26,24 @@ XSV is a command line program for indexing, slicing, analyzing, splitting and jo
 4. https://github.com/BurntSushi/xsv/issues/280
 5. https://github.com/googlecodelabs/tools/blob/main/FORMAT-GUIDE.md
 6. https://gist.github.com/dannguyen/376c69380f99d1eeca7ad6e890f96259
+
+## Project Structure
+--------
+        great_expectations
+        ├── great_expectations.yml
+        ├── expectations
+        │   ├── ass_1_attempt_2.json
+        ├── checkpoints
+        │   ├── ass_1_checkpoint_1.yml
+        ├── plugins
+        │   ├── data_docs_custom_styles.css
+        ├── uncommitted
+        │   ├── config_variables.yml       
+        │   ├── data_docs        
+        │   ├── datasource_new.ipynb 
+        │   ├── edit_ass_1_attempt_2.ipynb
+        │   ├── edit_checkpoint_ass_1_checkpoint_1.ipynb
+        │   └── validations           
+        └── .gitignore
+
+--------
