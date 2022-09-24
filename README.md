@@ -3,6 +3,24 @@
 ## Project Structure
 
 great_expectations
+├── great_expectations.yml
+├── expectations
+│   ├── ass_1_attempt_2.json
+├── checkpoints
+│   ├── ass_1_checkpoint_1.yml
+├── plugins
+│   ├── data_docs_custom_styles.css
+├── .gitignore
+├── uncommitted
+│   ├── config_variables.yml       
+│   ├── data_docs        
+│   ├── datasource_new.ipynb 
+│   ├── edit_ass_1_attempt_2.ipynb
+│   ├── edit_checkpoint_ass_1_checkpoint_1.ipynb
+│   └── validations            
+            
+
+great_expectations
     |-- great_expectations.yml
     |-- expectations
     |-- checkpoints
