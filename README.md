@@ -1,5 +1,18 @@
 # INFO7374 Algorithmic Digital Marketing - Assignment 1
 
+## Project Structure
+
+great_expectations
+    |-- great_expectations.yml
+    |-- expectations
+    |-- checkpoints
+    |-- plugins
+    |-- .gitignore
+    |-- uncommitted
+        |-- config_variables.yml
+        |-- data_docs
+        |-- validations
+
 ## Great Expectations 
 Great Expectations is the leading tool for validating, documenting, and profiling your data to maintain quality and improve communication between teams.
 
@@ -19,3 +32,10 @@ XSV is a command line program for indexing, slicing, analyzing, splitting and jo
 
 **Google Docs source link:** https://docs.google.com/document/d/1TVn5UFq4uGWXg3cnaEMye1MvhW7ZX0uYLI1YDyFTjug/edit#heading=h.mtq1xxsybtxa
 
+### References
+1. https://docs.greatexpectations.io/docs/tutorials/getting_started/tutorial_validate_data
+2. https://medium.com/hashmapinc/understanding-great-expectations-and-how-to-use-it-7754c78962f4
+3. https://github.com/BurntSushi/xsv#installation
+4. https://github.com/BurntSushi/xsv/issues/280
+5. https://github.com/googlecodelabs/tools/blob/main/FORMAT-GUIDE.md
+6. https://gist.github.com/dannguyen/376c69380f99d1eeca7ad6e890f96259
